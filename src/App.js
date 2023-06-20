@@ -1,5 +1,4 @@
-// import logo from './logo.svg';
-// import './App.css';
+
 const Hello=()=>{
   return(
     <div>
@@ -10,8 +9,8 @@ const Hello=()=>{
   );
 }
 const App=()=>{
-  console.log("hello App")
-  const now=new Date()
+ 
+ 
   return (
     <div >
       <p>greetings</p>
