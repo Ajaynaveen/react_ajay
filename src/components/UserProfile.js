@@ -1,14 +1,14 @@
 // UserProfile.js
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Link, useParams } from 'react-router-dom'; // Import Link and useParams
+import { Link, useParams } from 'react-router-dom'; // 
 
 function UserProfile() {
-  const { id } = useParams(); // Get the user ID from the URL params
+  const { id } = useParams(); 
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    // Fetch the user data based on the ID
+ 
     axios.get(`http://localhost:3002/users/${id}`)
       .then((response) => {
         setUser(response.data);
@@ -16,7 +16,7 @@ function UserProfile() {
       .catch((error) => {
         console.error('Error fetching user data:', error);
       });
-  }, [id]); // Trigger the effect whenever the ID changes
+  }, [id]); 
 
   return (
     <div>
@@ -30,7 +30,7 @@ function UserProfile() {
       ) : (
         <p>Loading user data...</p>
       )}
-      {/* Add a link back to the Dashboard */}
+    
       <Link to="/">Back to Dashboard</Link>
     </div>
   );
