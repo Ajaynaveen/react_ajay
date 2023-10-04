@@ -11,11 +11,6 @@
       "id": 3
     },
     {
-      "name": "navee",
-      "email": "naveen@gmail.com",
-      "id": 4
-    },
-    {
       "name": "sathish",
       "email": "sathish@gmail.com",
       "id": 5
@@ -24,6 +19,11 @@
       "name": "ajay",
       "email": "ahay@gmail.com",
       "id": 6
+    },
+    {
+      "name": "naveen",
+      "email": "naveen@gmail.com",
+      "id": 7
     }
   ]
 }
